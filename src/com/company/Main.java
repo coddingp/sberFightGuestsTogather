@@ -1,9 +1,9 @@
-package com.company;
+package com.sberFightGuestsTogather.src.com.company;
 //
 //import java.util.ArrayList;
 //import java.util.List;
 //
-//public class Main {
+//public class HashMap {
 //
 //    public static void main(String[] args) {
 //
@@ -32,7 +32,6 @@ package com.company;
 
 //package com.company;
 
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class Main {
@@ -140,8 +139,6 @@ public class Main {
                 }
             }
         }
-
-
         System.out.println("dislikedStringArray" + Arrays.toString(dislikedStringArray));
         System.out.println("invitedArrayList new " + invitedArrayList);
         return guestsAreGlad;
